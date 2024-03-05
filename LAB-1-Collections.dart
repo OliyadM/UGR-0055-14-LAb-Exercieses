@@ -17,7 +17,7 @@ void main() {
 
  //exercise 2
 
- 
+
   String courseCode = '01';
   int classNumber = 7;
   String courseName = 'Mobile Development';
@@ -40,4 +40,7 @@ void printMap(Map<dynamic, dynamic> map) {
   for (var key in map.keys) {
     print(key.toString() + ': ' + map[key].toString());
   }
+  //exericse 3
+
+  
 }
