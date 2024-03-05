@@ -26,4 +26,14 @@ void main() {
     default:
       print('invalid date');
   }
+  // exercise 2
+  int n = 10;
+  int cur = 0;
+  int next = 1;
+  for (int i = 0; i < n; i++) {
+    print(cur);
+    int temp = cur + next;
+    cur = next;
+    next = temp;
+  }
 }
