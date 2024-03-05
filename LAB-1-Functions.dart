@@ -1,4 +1,6 @@
 void main() {
+//exercise 1
+
   double average(lst) {
     double sum = 0;
     for ( double num in lst) {
@@ -6,6 +8,9 @@ void main() {
     }
     return sum / lst.length;
   }
+
+
+
 
   
 }
