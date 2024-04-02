@@ -22,7 +22,7 @@ class WidgetExercise1 extends StatelessWidget {
       body: Column(
         children: [
           Image.asset(
-            'assets/americano-slide.png',
+            'asset/americano-slide.png',
             width: 400,
             height: 300,
           ),
